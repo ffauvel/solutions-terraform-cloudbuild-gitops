@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "PROJECT_ID-tfstate"
+    bucket = "halogen-ethos-304100-tfstate"
     prefix = "env/dev"
   }
 }
